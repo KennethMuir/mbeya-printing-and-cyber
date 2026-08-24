@@ -1,10 +1,10 @@
-:root {
+﻿:root {
   --black: #060606;
   --black-2: #0b0b0b;
-  --white: #f5f5f0;
-  --muted: #999991;
+  --white: #FFFFFF;
+  --muted: #A6A6A6;
   --line: rgba(255,255,255,.13);
-  --lime: #c7ff00;
+  --accent: #A6A6A6;
   --gray: #151515;
   --card: #101010;
 }
@@ -49,7 +49,7 @@ img {
 .site-shell {
   min-height: 100vh;
   background:
-    radial-gradient(circle at 80% 10%, rgba(199,255,0,.035), transparent 25%),
+    radial-gradient(circle at 80% 10%, rgba(166,166,166,.035), transparent 25%),
     var(--black);
 }
 
@@ -72,12 +72,12 @@ img {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: var(--lime);
-  box-shadow: 0 0 10px var(--lime);
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
 }
 
 .announcement-link {
-  color: var(--lime);
+  color: var(--accent);
 }
 
 .navbar {
@@ -105,7 +105,7 @@ img {
   height: 38px;
   display: grid;
   place-items: center;
-  background: var(--lime);
+  background: var(--accent);
   color: var(--black);
   font-size: 20px;
   font-weight: 900;
@@ -144,7 +144,7 @@ img {
 }
 
 .nav-links a:hover {
-  color: var(--lime);
+  color: var(--accent);
 }
 
 .nav-actions {
@@ -173,7 +173,7 @@ img {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: var(--lime);
+  background: var(--accent);
   color: var(--black);
   font-size: 9px;
   font-weight: 900;
@@ -232,7 +232,7 @@ img {
   display: flex;
   align-items: center;
   gap: 9px;
-  color: var(--lime);
+  color: var(--accent);
   font-size: 9px;
   font-weight: 800;
   letter-spacing: .2em;
@@ -243,8 +243,8 @@ img {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--lime);
-  box-shadow: 0 0 12px var(--lime);
+  background: var(--accent);
+  box-shadow: 0 0 12px var(--accent);
 }
 
 .hero h1,
@@ -272,8 +272,8 @@ img {
   color: #555;
 }
 
-.lime {
-  color: var(--lime) !important;
+.accent {
+  color: var(--accent) !important;
 }
 
 .hero-copy > p {
@@ -305,13 +305,13 @@ img {
 }
 
 .button-primary {
-  background: var(--lime);
+  background: var(--accent);
   color: var(--black);
 }
 
 .button-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(199,255,0,.12);
+  box-shadow: 0 10px 30px rgba(166,166,166,.12);
 }
 
 .button-outline {
@@ -321,8 +321,8 @@ img {
 }
 
 .button-outline:hover {
-  border-color: var(--lime);
-  color: var(--lime);
+  border-color: var(--accent);
+  color: var(--accent);
 }
 
 .button-light {
@@ -347,7 +347,7 @@ img {
 }
 
 .hero-stats strong {
-  color: var(--lime);
+  color: var(--accent);
   font-size: 20px;
 }
 
@@ -374,7 +374,7 @@ img {
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
-  background: radial-gradient(circle, rgba(199,255,0,.11), transparent 68%);
+  background: radial-gradient(circle, rgba(166,166,166,.11), transparent 68%);
   filter: blur(20px);
 }
 
@@ -482,7 +482,7 @@ img {
 }
 
 .quick-services a:hover {
-  color: var(--lime);
+  color: var(--accent);
   background: #0c0c0c;
 }
 
@@ -537,7 +537,7 @@ img {
   align-items: center;
   gap: 9px;
   margin-top: 20px;
-  color: var(--lime);
+  color: var(--accent);
   font-size: 9px;
   font-weight: 900;
   letter-spacing: .14em;
@@ -571,8 +571,8 @@ img {
 .filter.active,
 .filter:hover {
   color: var(--black);
-  background: var(--lime);
-  border-color: var(--lime);
+  background: var(--accent);
+  border-color: var(--accent);
 }
 
 .service-grid {
@@ -620,7 +620,7 @@ img {
   width: 42px;
   height: 42px;
   border: 0;
-  background: var(--lime);
+  background: var(--accent);
   color: black;
   display: grid;
   place-items: center;
@@ -646,7 +646,7 @@ img {
 }
 
 .service-meta strong {
-  color: var(--lime);
+  color: var(--accent);
   white-space: nowrap;
   font-size: 10px;
 }
@@ -757,13 +757,13 @@ img {
 }
 
 .estimate strong {
-  color: var(--lime);
+  color: var(--accent);
   font-size: 25px;
 }
 
 .upload-section {
   padding: 100px 8vw;
-  background: var(--lime);
+  background: var(--accent);
   color: black;
 }
 
@@ -880,7 +880,7 @@ img {
 
 .terminal-status {
   margin-left: auto;
-  color: var(--lime);
+  color: var(--accent);
 }
 
 .cyber-services {
@@ -904,7 +904,7 @@ img {
 }
 
 .cyber-card > span {
-  color: var(--lime);
+  color: var(--accent);
   font-size: 9px;
 }
 
@@ -940,7 +940,7 @@ img {
 }
 
 .process-card > span {
-  color: var(--lime);
+  color: var(--accent);
   font-size: 10px;
 }
 
@@ -965,7 +965,7 @@ img {
   padding: 90px 8vw;
   position: relative;
   overflow: hidden;
-  background: var(--lime);
+  background: var(--accent);
   color: black;
   display: grid;
   grid-template-columns: 100px 1fr 1fr;
@@ -1035,7 +1035,7 @@ img {
 }
 
 .business-list span {
-  color: var(--lime);
+  color: var(--accent);
   font-size: 9px;
 }
 
@@ -1086,7 +1086,7 @@ img {
   height: 100%;
   padding: 0 22px;
   border: 0;
-  background: var(--lime);
+  background: var(--accent);
   color: black;
   font-size: 9px;
   font-weight: 900;
@@ -1135,7 +1135,7 @@ img {
 }
 
 .tracking-step.active svg {
-  background: var(--lime);
+  background: var(--accent);
   color: black;
 }
 
@@ -1207,7 +1207,7 @@ img {
 }
 
 .faq-item button > span {
-  color: var(--lime);
+  color: var(--accent);
   font-size: 9px;
 }
 
@@ -1222,7 +1222,7 @@ img {
 
 .faq-item button svg.rotate {
   transform: rotate(180deg);
-  color: var(--lime);
+  color: var(--accent);
 }
 
 .faq-item > p {
@@ -1259,7 +1259,7 @@ img {
 
 .cta-orbit {
   position: absolute;
-  border: 1px solid rgba(199,255,0,.12);
+  border: 1px solid rgba(166,166,166,.12);
   border-radius: 50%;
   pointer-events: none;
 }
@@ -1301,7 +1301,7 @@ footer {
 
 .footer-column > span:first-child {
   margin-bottom: 8px;
-  color: var(--lime);
+  color: var(--accent);
   font-size: 8px;
   font-weight: 800;
   letter-spacing: .15em;
@@ -1338,7 +1338,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 9px;
-  background: var(--lime);
+  background: var(--accent);
   color: black;
   box-shadow: 0 10px 40px rgba(0,0,0,.45);
   font-size: 8px;
@@ -1585,4 +1585,108 @@ footer {
     bottom: 15px;
   }
 }
+
+
+
+/* =========================================================
+   MBEYA — STRICT BLACK / GREY / WHITE CONTRAST SYSTEM
+   ========================================================= */
+
+:root {
+  --black: #060606;
+  --black-2: #0b0b0b;
+  --white: #ffffff;
+  --muted: #a6a6a6;
+  --gray: #a6a6a6;
+  --card: #151515;
+  --accent: #a6a6a6;
+  --line: rgba(255,255,255,.16);
+}
+
+/* DARK SECTIONS — LIGHT TEXT */
+.site-shell,
+.navbar,
+.hero,
+.intro-section,
+.paper-library,
+.configurator,
+.cyber-section,
+.process-section,
+.business-section,
+.tracking-section,
+.faq-section,
+footer {
+  color: #ffffff;
+}
+
+/* DARK SECTION SECONDARY TEXT */
+.hero p,
+.intro-text p,
+.section-heading p,
+.config-copy p,
+.cyber-copy p,
+.business-copy p,
+.tracking-copy p,
+.faq-item p,
+.footer-brand p,
+.footer-column a,
+.footer-location {
+  color: #a6a6a6;
+}
+
+/* LIGHT SECTIONS — DARK TEXT */
+.quote-section,
+.upload-section,
+.cta-section {
+  color: #060606;
+}
+
+/* LIGHT SECTION SECONDARY TEXT */
+.quote-section p,
+.upload-section p,
+.cta-section p {
+  color: #555555;
+}
+
+/* LIGHT BACKGROUNDS ALWAYS GET DARK TEXT */
+.upload-section input,
+.quote-form input,
+.quote-form textarea,
+.config-panel select,
+.tracking-input input {
+  background: #ffffff;
+  color: #060606;
+}
+
+/* DARK INPUTS ALWAYS GET LIGHT TEXT */
+.search-panel,
+.search-panel input,
+.config-panel,
+.tracking-panel {
+  color: #ffffff;
+}
+
+/* PLACEHOLDER CONTRAST */
+input::placeholder,
+textarea::placeholder {
+  color: #777777;
+}
+
+/* GREY ACCENT */
+.accent,
+.announcement-link,
+.filter.active,
+.eyebrow,
+.text-link,
+.brand-mark {
+  color: #a6a6a6;
+}
+
+
+/* ACCESSIBLE SELECTION */
+::selection {
+  background: #a6a6a6;
+  color: #060606;
+}
+
 

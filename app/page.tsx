@@ -1411,7 +1411,7 @@ export default function Home() {
 
         <div className="footer-bottom">
           <span>
-            © 2026 MBEYA PRINTING & CYBER SERVICES
+            © 2026 MBEYA PRINTING & CYBER SERVICES by Kenneth Muiruri
           </span>
 
           <span>
